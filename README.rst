@@ -248,7 +248,7 @@ If the entry is not in the ARP cache:
   ARP request:
 
 ``ARP Request``::
-
+ Fetch contents of requested document from network layer in 8kb chunks.
     Sender MAC: interface:mac:address:here
     Sender IP: interface.ip.goes.here
     Target MAC: FF:FF:FF:FF:FF:FF (Broadcast)
